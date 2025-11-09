@@ -375,5 +375,6 @@ python main.py
 
 *Breaking every barrier between human creativity and AI capability.*
 
-**This is how you win the world's largest hackathons.** 🏆" #   p o l a r i s - t e c h - g u a r d i a n s - E c h o "    
+**This is how you win the world's largest hackathons.** 🏆" #   p o l a r i s - t e c h - g u a r d i a n s - E c h o "   
+ 
  
