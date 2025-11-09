@@ -1,0 +1,33 @@
+.agentic-renderer {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  z-index: 100;
+}
+
+.neural-node {
+  fill: #64c8ff;
+  filter: drop-shadow(0 0 8px rgba(100, 200, 255, 0.8));
+  animation: node-pulse 2s ease-in-out infinite;
+}
+
+@keyframes node-pulse {
+  0%, 100% { opacity: 0.6; r: 3; }
+  50% { opacity: 1; r: 4; }
+}
+
+.neural-connection {
+  stroke: rgba(100, 200, 255, 0.3);
+  stroke-width: 1;
+  stroke-dasharray: 5, 5;
+  animation: connection-flow 2s linear infinite;
+}
+
+@keyframes connection-flow {
+  to { stroke-dashoffset: -10; }
+}
+
+.data-packet {
+  fill: #ffd700;
+  filter: drop-shadow(0 0 10px rgba(255, 215, 0, 1));
+}

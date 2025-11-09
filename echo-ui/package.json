@@ -1,0 +1,26 @@
+{
+  "name": "echo-bio-cognitive-hud",
+  "version": "1.0.0",
+  "description": "ECHO: Bio-Cognitive HUD - Sentient Glass Interface",
+  "homepage": ".",
+  "scripts": {
+    "start": "PORT=8000 react-scripts start",
+    "build": "react-scripts build",
+    "dev": "PORT=8000 react-scripts start"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "^0.158.0",
+    "@react-three/fiber": "^8.15.11",
+    "@react-three/drei": "^9.88.13",
+    "framer-motion": "^10.16.4",
+    "axios": "^1.6.0",
+    "react-spring": "^9.7.3"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}

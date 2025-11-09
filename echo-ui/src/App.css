@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Ndot57 Font Simulation - Replace with actual font file */
+@font-face {
+  font-family: 'Ndot57';
+  src: url('data:font/truetype;charset=utf-8;base64,') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Fallback for Ndot57 - using a monospace with letter-spacing for dotted effect */
+.ndot57-title, .ndot57-subtitle, .ndot57-text {
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+}
+
+.bio-cognitive-hud {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  transition: all 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Ambient Mode (Dark) */
+.bio-cognitive-hud.ambient-mode {
+  background: radial-gradient(ellipse at center, #0a0a0a 0%, #000000 100%);
+}
+
+/* Focus Mode (Light) */
+.bio-cognitive-hud.focus-mode {
+  background: radial-gradient(ellipse at center, #f8f9fa 0%, #e9ecef 100%);
+  color: #212529;
+}
+
+.sentient-canvas {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 1;
+}
+
+.hud-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hud-overlay * {
+  pointer-events: auto;
+}
+
+/* Ndot57 Typography Showcase */
+.ndot57-showcase {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.ndot57-title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  animation: emissiveGlow 3s ease-in-out infinite alternate;
+}
+
+.ambient-mode .ndot57-title {
+  color: #ffffff;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.4);
+}
+
+.focus-mode .ndot57-title {
+  color: #000000;
+  text-shadow: none;
+}
+
+.ndot57-subtitle {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  letter-spacing: 0.3em;
+}
+
+/* Emissive Glow Animation for Ndot57 */
+@keyframes emissiveGlow {
+  0% { 
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.2);
+  }
+  100% { 
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.8), 0 0 60px rgba(255, 255, 255, 0.4);
+  }
+}
+
+/* Glitch Effect for Frustration State */
+.glitch-effect {
+  animation: glitchShake 0.2s ease-in-out;
+}
+
+.glitch-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 0, 0, 0.1) 25%,
+    rgba(0, 255, 0, 0.1) 50%,
+    rgba(0, 0, 255, 0.1) 75%,
+    transparent 100%
+  );
+  transition: opacity 0.1s;
+}
+
+.glitch-effect .glitch-overlay {
+  opacity: 1;
+  animation: glitchScan 0.2s ease-in-out;
+}
+
+@keyframes glitchShake {
+  0%, 100% { transform: translateX(0); }
+  10% { transform: translateX(-2px) translateY(1px); }
+  20% { transform: translateX(2px) translateY(-1px); }
+  30% { transform: translateX(-1px) translateY(2px); }
+  40% { transform: translateX(1px) translateY(-2px); }
+  50% { transform: translateX(-2px) translateY(1px); }
+  60% { transform: translateX(2px) translateY(-1px); }
+  70% { transform: translateX(-1px) translateY(2px); }
+  80% { transform: translateX(1px) translateY(-2px); }
+  90% { transform: translateX(-2px) translateY(1px); }
+}
+
+@keyframes glitchScan {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Bio-Reactive Text Opacity */
+.bio-reactive-text {
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cognitive-state-flowing .bio-reactive-text:not(.ndot57-text) {
+  opacity: 0;
+}
+
+.cognitive-state-stuck .bio-reactive-text {
+  opacity: 1;
+}
+
+.cognitive-state-frustrated .bio-reactive-text {
+  opacity: 1;
+}
+
+.cognitive-state-idle .bio-reactive-text {
+  opacity: 0.8;
+}
+
+/* HUD Components */
+.hud-component {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+.focus-mode .hud-component {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hud-component:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.focus-mode .hud-component:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Control Buttons */
+.bio-button {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+}
+
+.bio-button:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.bio-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.bio-button.primary {
+  background: linear-gradient(135deg, #4CAF50, #45a049);
+  border: 1px solid #4CAF50;
+}
+
+.bio-button.danger {
+  background: linear-gradient(135deg, #f44336, #da190b);
+  border: 1px solid #f44336;
+}
+
+.bio-button.photonic {
+  background: linear-gradient(135deg, #FF6B35, #F7931E);
+  border: 1px solid #FF6B35;
+}
+
+/* Focus Mode Button Styles */
+.focus-mode .bio-button {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05));
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+.focus-mode .bio-button:hover {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* Cognitive State Indicators */
+.cognitive-indicator {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+  animation: pulse 2s infinite;
+}
+
+.cognitive-indicator.flowing {
+  background: #4CAF50;
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.6);
+}
+
+.cognitive-indicator.stuck {
+  background: #2196F3;
+  box-shadow: 0 0 20px rgba(33, 150, 243, 0.6);
+}
+
+.cognitive-indicator.frustrated {
+  background: #FF9800;
+  box-shadow: 0 0 20px rgba(255, 152, 0, 0.6);
+  animation: shake 0.5s infinite;
+}
+
+.cognitive-indicator.idle {
+  background: #9E9E9E;
+  box-shadow: 0 0 10px rgba(158, 158, 158, 0.4);
+}
+
+.cognitive-indicator.offline {
+  background: #424242;
+  opacity: 0.5;
+  animation: none;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.7; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  75% { transform: translateX(2px); }
+}
+
+/* Neural Network Visualization */
+.neural-thinking {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 15;
+  pointer-events: none;
+}
+
+.neural-dot {
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  animation: neuralPulse 2s infinite ease-in-out;
+}
+
+@keyframes neuralPulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.5); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ndot57-title {
+    font-size: 2rem;
+  }
+  
+  .ndot57-subtitle {
+    font-size: 0.7rem;
+  }
+  
+  .hud-component {
+    margin: 5px;
+    padding: 15px;
+  }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
