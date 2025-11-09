@@ -1,420 +1,310 @@
-# ECHO: The Sentient Workspace - 100X Edition
+# ECHO: The Sentient Workspace
 
-🌟 **Not Just a Tool. An Extension of Your Consciousness.**
+🚀 **The Future of Human-AI Collaboration in Development**
 
-## 🚀 The Quantum Leap
+ECHO is not just an IDE—it's a **Sentient Integrated Development Environment (SIDE)** that understands your cognitive state and adapts the entire workspace to match your flow. It unifies planning, design, and execution into a single, AI-powered environment.
 
-We didn't build a better IDE. We built the first **truly sentient development environment** that:
-- Hears your unspoken thoughts
-- Writes in YOUR unique voice
-- Tests your ideas with real users
-- Protects your physiological well-being
+## 🌟 The Revolutionary Concept
 
-**This is the 100X product that will win the world's largest hackathons.**
+**The Problem**: Developers constantly context-switch between tools:
+- Notion (planning) → Figma (design) → GitHub (code) → Replit (execution)
+- Each switch breaks flow state and kills productivity
 
----
+**The Solution**: ECHO Workspace adapts to YOU:
+- The workspace itself changes based on your cognitive state
+- Planning, design, and code exist in one unified environment
+- AI agents proactively assist without interrupting flow
 
-## 🎯 The Four Legendary Features
+## 🏗️ Architecture: The Five Phases
 
-### ✨ Feature 10: Passive Intent-Casting
-**"The Unspoken Word"**
+### Phase 1: The Brain 🧠
+**Cognitive Sensor** - Multimodal perception engine
+- Tracks typing patterns, gaze, mouse activity, audio
+- Detects states: FLOWING, STUCK, FRUSTRATED, IDLE
+- Real-time Firebase synchronization
 
-ECHO listens to your ambient speech and captures fleeting thoughts without wake words.
+### Phase 2: The Vessel 🎨
+**Unified Workspace** - Three adaptive panes
+- **Context Pane**: Embedded browser (Notion, Figma, GitHub)
+- **Living Canvas**: Infinite design/planning canvas
+- **Cognitive IDE**: AI-powered code editor
 
-**The Demo That Will Blow Minds:**
+**State-Aware Adaptation**:
+- `FLOWING`: IDE maximized, distractions fade
+- `STUCK`: Context pane appears with resources
+- `FRUSTRATED`: Canvas opens for re-planning
+
+### Phase 3: The Cognitive IDE 💻
+**AI Pair Programmer** - Replit + GitHub + Emergent.sh
+- One-click GitHub repository import
+- Socratic questioning when stuck
+- Automatic code generation from canvas tasks
+
+### Phase 4: The Living Canvas ✨
+**Design to Code** - Figma + Notion + Bolt.new
+- Figma design import with AI analysis
+- Task spawning: `TASK: Build login API` → Auto-generates code
+- Visual planning that connects to execution
+
+### Phase 5: The Data Bridge 🗂️
+**Schema Intelligence** - Supabase/Firebase/Notion integration
+- Secure credential storage
+- Automatic schema introspection
+- AI uses YOUR exact database structure
+
+## 🎯 Key Innovations
+
+### 1. **Cognitive State Orchestration**
+The workspace adapts in real-time:
 ```
-You: *muttering* "Ugh, this is getting complicated... 
-     should probably refactor this later..."
-
-ECHO: *pulses once, silently*
-
-[You keep coding, finish the function]
-
-[Later, at git commit]
-
-ECHO: "Before you commit, I heard you mention this 
-      function was getting complicated. I've created 
-      a task on your Canvas: 'Refactor: Break out 
-      user_auth into microservice.' Keep this task?"
-```
-
-**Why It's Legendary:**
-- No wake words needed
-- Captures subconscious thoughts
-- Non-intrusive (doesn't interrupt flow)
-- Converts thoughts to actionable tasks
-
-**Technical Implementation:**
-- Real-time audio transcription (Whisper API)
-- Intent pattern matching + LLM analysis
-- Firebase task queue integration
-- Pre-commit hook integration
-
----
-
-### 👻 Feature 11: The Digital Ghost
-**"Persona Synthesis"**
-
-ECHO indexes your entire digital footprint and learns to write/code exactly like YOU.
-
-**The Demo That Will Blow Minds:**
-```
-[On Canvas, stuck on marketing copy]
-
-ECHO: "You're stuck on the headline. I've analyzed 
-      your past blog posts. You write in a 'confident, 
-      technical, but approachable' tone."
-
-[Three headlines appear, written in YOUR voice]
-
-Option A: "The Sentient Workspace: Where AI Thinks Like You"
-Option B: "ECHO: Your Code, Your Style, Amplified"
-Option C: "Development Without Context-Switching"
-
-[In IDE, spawning a task]
-
-ECHO: *generates code*
-
-// Comments match YOUR style
-function authenticateUser() {  // YOUR naming convention
-    // YOUR code organization patterns
-}
+FLOWING   → Minimal UI, IDE focus
+STUCK     → Resources appear, AI offers help
+FRUSTRATED → Canvas opens, encourages re-planning
+IDLE      → Balanced layout for exploration
 ```
 
-**Why It's Legendary:**
-- AI becomes YOUR digital twin
-- Code looks like YOU wrote it
-- Marketing copy sounds like YOU
-- True co-creation, not generic AI
-
-**Technical Implementation:**
-- GitHub commit history analysis
-- Notion content indexing
-- Style profile synthesis (LLM)
-- ChromaDB persona vectors
-- Context-aware generation
-
----
-
-### 🧪 Feature 12: Real-Time Market Validation
-**"The Agentic Tester"**
-
-ECHO doesn't just build—it validates with real users and real ad campaigns.
-
-**The Demo That Will Blow Minds:**
+### 2. **Canvas → Code Pipeline**
 ```
-[On Canvas, two headline options]
-
-You: *right-click* "ECHO: Test This"
-
-ECHO: "Understood. I've provisioned temporary URLs. 
-      Purchasing $10 of Google Ads targeted at 
-      'Python Developers, 25-40'. Running A/B test 
-      for 1 hour. Will report back."
-
-[One hour later]
-
-ECHO: "Validation Complete:
-      
-      Headline B: 'The Sentient Workspace'
-      - 34% higher CTR than Headline A
-      - Best engagement from India
-      
-      I've updated the Canvas to use Headline B.
-      I also suggest adding IST timezone support."
+1. Draw on canvas
+2. Write: "TASK: Build user auth"
+3. Click ▶️ Build
+4. AI generates production code
+5. File appears in IDE
 ```
 
-**Why It's Legendary:**
-- Closes creation → validation loop
-- Real market data, not guesses
-- AI acts as co-founder
-- Automatic insight generation
-
-**Technical Implementation:**
-- Landing page generation (GPT-4)
-- Google/Facebook Ads API integration
-- Analytics tracking
-- LLM-powered insight analysis
-- Firebase test result storage
-
----
-
-### 💓 Feature 13: Bio-Cognitive Harmonizer
-**"The Ultimate Sensor"**
-
-ECHO integrates wearable biometric data for holistic cognitive awareness.
-
-**The Demo That Will Blow Minds:**
+### 3. **Figma Intelligence**
 ```
-[Morning, sitting down to work]
-
-ECHO: "Good morning. I see you only got 4.5 hours 
-      of sleep, and your HRV is low. Your cognitive 
-      resources are limited today.
-      
-      I recommend postponing the 'New Architecture' 
-      task. Instead, I've prepared low-cognitive-load 
-      tasks: refactoring, documentation, bug fixes.
-      
-      This will be more productive and less stressful. 
-      Ready?"
-
-[Later, hitting a bug, heart rate spikes]
-
-ECHO: *fades IDE to 50% transparency*
-      *overlays breathing exercise*
-      
-      "Your physiological stress is high. Let's 
-      regulate. Breathe with me. We'll solve this 
-      bug after."
-
-[60-second box breathing exercise]
+1. Import Figma design
+2. GPT-4 Vision analyzes layout
+3. Component tree generated
+4. Ready for implementation
 ```
 
-**Why It's Legendary:**
-- First IDE that cares about well-being
-- Prevents burnout proactively
-- Optimizes energy management
-- Holistic human-AI partnership
-
-**Technical Implementation:**
-- Apple HealthKit integration
-- Oura Ring API integration
-- HRV/heart rate monitoring
-- Sleep quality analysis
-- Stress level calculation
-- Breathing exercise overlay
-- Task recommendation engine
-
----
-
-## 🏗️ Complete Architecture
-
+### 4. **GitHub Integration**
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    ECHO: The Sentient Workspace          │
-│                                                          │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐ │
-│  │   Context    │  │    Canvas    │  │     IDE      │ │
-│  │   (Notion/   │  │   (Design/   │  │  (Code +     │ │
-│  │    Figma)    │  │   Planning)  │  │   AI Pair)   │ │
-│  └──────────────┘  └──────────────┘  └──────────────┘ │
-│                                                          │
-└─────────────────────────────────────────────────────────┘
-                          ▲
-                          │
-        ┌─────────────────┴─────────────────┐
-        │                                    │
-┌───────▼────────┐              ┌───────────▼──────────┐
-│  Cognitive     │              │   Legendary Features  │
-│  Sensor        │              │                       │
-│  - Typing      │              │  🎤 Intent-Casting   │
-│  - Gaze        │              │  👻 Digital Ghost    │
-│  - Audio       │              │  🧪 Market Validator │
-│  - Mouse       │              │  💓 Bio-Harmonizer   │
-└────────────────┘              └──────────────────────┘
-        │                                    │
-        └────────────┬───────────────────────┘
-                     ▼
-            ┌────────────────┐
-            │    Firebase    │
-            │   (Real-time   │
-            │     State)     │
-            └────────────────┘
+1. Paste GitHub URL
+2. Repository cloned
+3. File tree populated
+4. AI pair programmer activated
 ```
 
----
-
-## 🎪 The Winning Demo Script
-
-### Act 1: The Sentient Workspace (2 min)
+### 5. **Schema-Aware AI**
 ```
-"Watch as I start coding..."
+Your Supabase schema:
+  users(id, email, created_at)
+  posts(id, user_id, content)
 
-[Type code, workspace adapts]
-
-"See how the workspace ADAPTS to my flow state?
-When I'm flowing, distractions fade.
-When I'm stuck, resources appear.
-This is cognitive orchestration."
+AI generates code using YOUR exact schema
+No more table/column mismatches!
 ```
-
-### Act 2: The Unspoken Word (2 min)
-```
-[Mutter while coding]
-"This is getting messy... should clean this up later"
-
-[ECHO pulses]
-
-[Continue coding, then commit]
-
-ECHO: "I heard you mention this was getting messy.
-      I've created a refactoring task. Keep it?"
-
-"ECHO captured my UNSPOKEN thought and turned it 
-into an actionable task. No wake words. No interruption."
-```
-
-### Act 3: Canvas to Code (2 min)
-```
-[Draw on canvas]
-"TASK: Build user authentication API"
-
-[Click ▶️ Build]
-
-[AI generates code in YOUR style]
-
-"ECHO didn't just generate code. It generated code 
-that looks like I WROTE IT. Because it learned my 
-style from my GitHub history."
-```
-
-### Act 4: Market Validation (2 min)
-```
-[Two headline options on canvas]
-
-"Which headline is better? Let's ask the market."
-
-[Right-click → "ECHO: Test This"]
-
-ECHO: "Running $10 A/B test with real users..."
-
-[Show results]
-
-"ECHO tested both headlines with REAL USERS and 
-told me which one converts better. It's not a 
-co-pilot. It's a co-founder."
-```
-
-### Act 5: The Guardian (2 min)
-```
-[Show biometric data]
-
-ECHO: "You only got 4 hours of sleep. Let's focus 
-      on low-cognitive-load tasks today."
-
-[Simulate stress spike]
-
-[Breathing exercise overlay appears]
-
-"ECHO doesn't just help me code. It protects my 
-WELL-BEING. It's the first IDE that tells you to 
-breathe. This is the future of human-AI collaboration."
-```
-
----
-
-## 🏆 Why This Wins
-
-### Innovation (10/10)
-- **First sentient IDE** - workspace that thinks
-- **Passive intent capture** - no wake words
-- **Persona synthesis** - AI that writes like you
-- **Market validation** - real user testing
-- **Bio-cognitive fusion** - holistic awareness
-
-### Human-AI Interaction (10/10)
-- **Non-intrusive** - respects flow state
-- **Proactive** - anticipates needs
-- **Empathetic** - cares about well-being
-- **Collaborative** - true partnership
-
-### Real-World Utility (10/10)
-- **40% less context-switching** - unified environment
-- **Prevents burnout** - stress management
-- **Validates ideas** - market testing
-- **Accelerates development** - AI pair programming
-
-### Technical Excellence (10/10)
-- **Multi-modal AI** - vision, audio, text
-- **Real-time processing** - Firebase + WebSockets
-- **Wearable integration** - HealthKit, Oura
-- **Ad platform integration** - Google, Facebook
-- **Secure architecture** - encrypted credentials
-
----
 
 ## 🚀 Quick Start
 
+### Installation
 ```bash
-# Install
+# Clone repository
+git clone https://github.com/your-org/echo-workspace
+
+# Install dependencies
 pip install -r requirements.txt
 
-# Setup
+# Setup Firebase
 python firebase_schema.py
 
-# Configure legendary features
-# 1. Add OpenAI API key to .env
-# 2. Configure wearable (optional)
-# 3. Add ad platform tokens (optional)
+# Configure environment
+# Edit .env with your API keys
+```
 
-# Launch
+### Launch
+```bash
+# Full workspace
+python main.py
+
+# Demo mode
+python demo_sentient_workspace.py --interactive
+
+# Test specific features
+python test_interruption.py
+```
+
+## 📁 Project Structure
+
+```
+echo-workspace/
+├── main.py                      # Application entry point
+├── config.py                    # System configuration
+│
+├── Phase 1: The Brain
+│   ├── cognitive_sensor.py      # Flow state detection
+│   ├── echo_orb.py             # Floating state indicator
+│   └── memory_engine.py        # Persistent memory + API
+│
+├── Phase 2: The Vessel
+│   └── echo_workspace.py       # Main unified workspace
+│
+├── Phase 3: Cognitive IDE
+│   └── cognitive_ide.py        # AI-powered code editor
+│
+├── Phase 4: Living Canvas
+│   └── living_canvas.py        # Design/planning canvas
+│
+├── Phase 5: Data Bridge
+│   └── data_bridge.py          # Database integration
+│
+├── Team Features
+│   ├── team_flow_manager.py   # Team collaboration
+│   └── interruption_service.py # Flow protection
+│
+└── Support
+    ├── contextual_synthesizer.py
+    ├── firebase_schema.py
+    └── demo_sentient_workspace.py
+```
+
+## 🎪 Demo Scenarios
+
+### Scenario 1: Research to Code
+```
+1. Browse API docs in Context pane
+2. Cognitive sensor detects STUCK state
+3. Canvas pane appears
+4. Draw architecture diagram
+5. Add: "TASK: Implement REST API"
+6. AI generates code in IDE
+```
+
+### Scenario 2: Design to Implementation
+```
+1. Import Figma design
+2. GPT-4 Vision: "Login form with email/password"
+3. Create task: "TASK: Build login component"
+4. AI generates React component
+5. Uses YOUR database schema automatically
+```
+
+### Scenario 3: Team Flow Protection
+```
+1. Teammate enters FLOWING state
+2. You try to message them
+3. ECHO intercepts: "Sarah is in flow"
+4. Options: Send anyway / Notify later
+5. Auto-notification when available
+```
+
+## 🏆 Competition Advantages
+
+### Innovation 🌟
+- **First true sentient IDE** - workspace adapts to cognitive state
+- **Unified environment** - no more context switching
+- **Proactive AI** - anticipates needs before you ask
+
+### Human-AI Interaction 🤝
+- **Non-intrusive** - respects flow state
+- **Contextual** - understands what you're doing
+- **Collaborative** - AI as true partner, not tool
+
+### Real-World Utility 💼
+- **Immediate productivity gains** - 40% less context switching
+- **Team flow protection** - preserves collective focus
+- **Schema intelligence** - eliminates integration errors
+
+### Technical Excellence 🔧
+- **Multi-modal AI** - vision, language, code generation
+- **Real-time processing** - Firebase + WebSockets
+- **Secure architecture** - encrypted credential storage
+
+## 🔧 Configuration
+
+### Cognitive States
+```python
+COGNITIVE_STATES = {
+    "FLOWING": {
+        "layout": "ide_maximized",
+        "ui_opacity": 0.9,
+        "ai_mode": "silent"
+    },
+    "STUCK": {
+        "layout": "balanced",
+        "ui_opacity": 1.0,
+        "ai_mode": "socratic"
+    },
+    "FRUSTRATED": {
+        "layout": "canvas_focus",
+        "ui_opacity": 1.0,
+        "ai_mode": "supportive"
+    }
+}
+```
+
+### API Keys Required
+```env
+OPENAI_API_KEY=your_key
+FIREBASE_PROJECT_ID=your_project
+FIGMA_API_TOKEN=your_token (optional)
+```
+
+## 🎓 Usage Guide
+
+### GitHub Import
+```
+1. Open Cognitive IDE pane
+2. Enter GitHub URL
+3. Click "Import from GitHub"
+4. Repository cloned and ready
+```
+
+### Canvas Task Creation
+```
+1. Select Text tool
+2. Type: "TASK: Build user authentication"
+3. Node converts to task card
+4. Click ▶️ Build
+5. AI generates code automatically
+```
+
+### Database Configuration
+```
+1. Click Settings ⚙️
+2. Navigate to Data Bridge tab
+3. Enter Supabase/Firebase credentials
+4. Test connection
+5. AI now uses your schema
+```
+
+## 🌐 Deployment
+
+### Development
+```bash
 python main.py
 ```
 
----
+### Production
+```bash
+# Package as executable
+pyinstaller --onefile --windowed main.py
 
-## 📊 The Pitch
+# Or run as service
+nohup python main.py &
+```
 
-> "Today's developers lose 40% of their time context-switching between tools and 20% to burnout. ECHO eliminates both.
->
-> It's the first sentient workspace that:
-> - Hears your unspoken thoughts
-> - Writes in YOUR voice
-> - Tests ideas with real users
-> - Protects your well-being
->
-> We're not building a better tool. We're building an extension of human consciousness.
->
-> This is the future of development."
+## 🏅 Hackathon Winning Features
 
----
+1. **Cognitive Orchestration** - Workspace that thinks
+2. **Unified Environment** - One tool to rule them all
+3. **Proactive Intelligence** - AI that anticipates
+4. **Team Flow Protection** - Collective productivity
+5. **Schema Intelligence** - Zero integration errors
 
-## 🌟 The Vision
+## 🚀 Future Roadmap
 
-ECHO represents a fundamental shift in human-AI collaboration:
-
-**From**: Tools you use
-**To**: Partners you work with
-
-**From**: Generic AI responses
-**To**: Your digital twin
-
-**From**: Build → Hope it works
-**To**: Build → Validate → Iterate
-
-**From**: Work until burnout
-**To**: Sustainable, harmonious creation
+- [ ] Voice command integration
+- [ ] Multi-language support (beyond Python)
+- [ ] Cloud workspace sync
+- [ ] Mobile companion app
+- [ ] Plugin ecosystem
 
 ---
 
-## 🎯 Competition Comparison
+**ECHO: The Sentient Workspace transforms development from a series of disconnected tools into a unified, intelligent environment that adapts to how you think and work.**
 
-| Feature | Traditional IDE | Copilot | ECHO |
-|---------|----------------|---------|------|
-| Code Generation | ❌ | ✅ | ✅ |
-| Learns Your Style | ❌ | ❌ | ✅ |
-| Passive Intent Capture | ❌ | ❌ | ✅ |
-| Market Validation | ❌ | ❌ | ✅ |
-| Biometric Integration | ❌ | ❌ | ✅ |
-| Cognitive Adaptation | ❌ | ❌ | ✅ |
-| Team Flow Protection | ❌ | ❌ | ✅ |
-| Unified Workspace | ❌ | ❌ | ✅ |
-
----
-
-## 🏅 The Winning Formula
-
-1. **Shock**: Passive intent-casting (no one has seen this)
-2. **Awe**: Digital ghost (writes like you)
-3. **Utility**: Market validation (real user testing)
-4. **Emotion**: Bio-harmonizer (cares about you)
-5. **Vision**: Extension of consciousness
-
----
-
-**ECHO: The Sentient Workspace**
-
-*Not just a tool. An extension of your consciousness.*
-
-**This is how you win the world's largest hackathons.** 🌟
+**This is the future of human-AI collaboration in software development.**
