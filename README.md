@@ -287,7 +287,7 @@ pyinstaller --onefile --windowed main.py
 nohup python main.py &
 ```
 
-## 🏅 Hackathon Winning Features
+## 🏅 LEGENDARY  Features
 
 1. **Cognitive Orchestration** - Workspace that thinks
 2. **Unified Environment** - One tool to rule them all
@@ -308,3 +308,4 @@ nohup python main.py &
 **ECHO: The Sentient Workspace transforms development from a series of disconnected tools into a unified, intelligent environment that adapts to how you think and work.**
 
 **This is the future of human-AI collaboration in software development.**
+**Developed by Tech Guardians**
